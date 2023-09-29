@@ -1,0 +1,14 @@
+article{
+    background-color: aqua;
+}
+.classe1 {
+    background-color: red;
+}
+#id1{
+    background-color: green;
+}
+/* fontes serifadas, fontes para prestar mais atenção */
+.fonte {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

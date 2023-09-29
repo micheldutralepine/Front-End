@@ -1,33 +1,60 @@
-        <!-- AULA 002 -->
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Aula 002</title>
-        </head>
-        <body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS INCORPORADO */
+        /* fomatação univeral para todas as tags */
+        figcaption54{
+            background-color: red;
+        }
+        /* Para diferentes elementos */
+        .classe1 {
+            background-color: yellow;
         
-            <!-- Títulos -->
-            <h1>Olá Mundo</h1>
-            <h2>Ola Mundo</h2>
-            <h3>Ola Mundo</h3>
-            <h4>Ola Mundo</h4>
-            <h5>Ola Mundo</h5>
-            <h6>Ola Mundo</h6>
+        }
+        .classe2{
+            background-color: blueviolet;
+        }
+        .fonte{
+            font-size: 12px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* ID - indice para um elemento */
+        #id1{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS INLINE -->
+    <header style="background-color: aqua;">Cabeçalho</header>
+    <section>seção
+        <article class="classe1 fonte">Artigo 
+            <figure> 
+                <img> IMAGEM
+                <figcaption>TEXTO</figcaption>
+
+            </figure>
+        </article>
+
         
-            <!-- Links -->
-            <a href="https://www.google.com.br">LINK EXTERNO</a>
-            <br> <!-- Quebra de linha -->
-            <br> <!-- Quebra de linha -->
-            <a href="https://www.google.com.br" target="_blank">LINK OUTRA ABA</a>
-            <br>
-            <!-- Imagens -->
-            <!-- PGH - melhor para se utilizar em sites -->
-            <!-- PNG - Melhor para trabalhar com transparencia da imagem  -->
-            <!-- GIF - melhor para utilizar com imagens com curvas -->
+        <article class="classe2">Artigo 
+            <figure> 
+                <img> IMAGEM
+                <figcaption>TEXTO</figcaption>
 
-            <img src="surfing-2212948_1280.jpg" alt="">
+            </figure>
+        </article>
 
-        </body>
-        </html> 
+    </section>
+    <footer id="id1" class="fonte">Rodapé</footer>
+    <figcaption>TEXTO</figcaption>
+    <figcaption>TEXTO</figcaption>
+    <figcaption>TEXTO</figcaption>
+
+</body>
+</html>
