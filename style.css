@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #1E2235;
+}
+
+
+/* -------------- HEADER -------------  */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.lista-menu {
+    display: flex;
+    gap: 35px;
+}
+
+.usuario {
+    display: flex;
+    gap: 10px;
+}
+
+.login a {
+    color: white;
+    padding: 3px 11px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.cadastro a {
+    background-color: #8B5CF6;
+    padding: 3px 11px;
+    border-radius: 4px;
+}
+
+.detalhe::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 15px;
+    height: 30px;
+    background-color: white;
+}
